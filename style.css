@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.flexClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5px 40px 5px 40px;
+}
+
+.card {
+    height: 1350px;
+    width: 340px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans {
+    height: 400px;
+    width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.suvs {
+    height: 400px;
+    width: 300px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    height: 400px;
+    width: 300px;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+#one:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+}
+
+#two:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+}
+
+#three:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+}
+
+p {
+    color: white;
+    font-family : 'Poppins', Lexend Deca;
+    font-weight : lighter;
+}
+
+#name {
+    color: white;
+    font-family : 'Poppins', Big Shoulders Display;
+    font-size: 40px;
+    font-weight: bold;
+}
